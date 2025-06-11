@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "DRAW.IO fullsize window edit point",
+  "version": "1.0",
+  "description": "This is a small extension for Chrome, which fixes size window for edit point",
+  "content_scripts": [
+    {
+      "matches": ["https://app.diagrams.net/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
